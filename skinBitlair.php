@@ -239,7 +239,7 @@ class BitlairTemplate extends BaseTemplate {
           <div class="art-object1415556463"> </div>
         </div>
         <h1 class="art-headline sitesub">
-          <?php echo wfMessage( 'subtitle' )->escaped(); $this->html( 'subtitle' ) ?>
+          <?php // echo wfMessage( 'subtitle' )->escaped(); $this->html( 'subtitle' ); ?>
         </h1>
         <h2 class="art-slogan sitetitle" role="banner">
           <a href="<?php echo htmlspecialchars( $this->data['nav_urls']['mainpage']['href'] ) ?>">
