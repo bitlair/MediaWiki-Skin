@@ -30,7 +30,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
  * @todo document
  * @ingroup Skins
  */
-class SkinBitLair extends SkinTemplate {
+class SkinBitlair extends SkinTemplate {
 	public $skinname = 'bitlair';
 	public $template = 'BitlairTemplate';
 	public $stylename = 'Bitlair';
@@ -170,7 +170,7 @@ class SkinBitLair extends SkinTemplate {
 	}
 }
 
-class BitLairTemplate extends BaseTemplate {
+class BitlairTemplate extends BaseTemplate {
   
   function getNav(){
     $nav = $this->data['content_navigation'];
