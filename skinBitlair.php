@@ -32,8 +32,8 @@ if ( !defined( 'MEDIAWIKI' ) ) {
  */
 class SkinBitLair extends SkinTemplate {
 	public $skinname = 'bitlair';
-	public $template = 'BitLairTemplate';
-	public $stylename = 'BitLair';
+	public $template = 'BitlairTemplate';
+	public $stylename = 'Bitlair';
 	/**
 	 * @param OutputPage $out
 	 */
@@ -47,8 +47,8 @@ class SkinBitLair extends SkinTemplate {
     
     
 		// TODO: Migrate all of these
-//		$out->addStyle( $this->stylename . '/IE60Fixes.css', 'screen', 'IE 6' );
-//		$out->addStyle( $this->stylename . '/IE70Fixes.css', 'screen', 'IE 7' );
+		$out->addStyle( $this->stylename . '/IE60Fixes.css', 'screen', 'IE 6' );
+		$out->addStyle( $this->stylename . '/IE70Fixes.css', 'screen', 'IE 7' );
 	}
 
 	/**

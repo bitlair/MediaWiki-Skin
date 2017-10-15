@@ -1,5 +1,5 @@
 {
-	"name": "BitLair Black",
+	"name": "Bitlair Black",
 	"author": [
 		"Niels v/d Spek (aka: Tjempie)",
 		"..."
@@ -10,13 +10,13 @@
 	"license-name": "GPL-2.0+",
 	"type": "skin",
 	"ValidSkinNames": {
-		"bitlair": "BitLair"
+		"bitlair": "Bitlair"
 	},
 	"requires": {
 		"MediaWiki": ">= 1.25.0"
 	},
 	"MessagesDirs": {
-		"BitLair": [
+		"Bitlair": [
 			"i18n"
 		]
 	},
