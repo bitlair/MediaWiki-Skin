@@ -4,7 +4,7 @@
 		"Niels v/d Spek (aka: Tjempie)",
 		"..."
 	],
-	"url": "https://www.mediawiki.org/wiki/Skin:BitLair",
+	"url": "https://www.mediawiki.org/wiki/Skin:Bitlair",
 	"descriptionmsg": "BitLair-desc",
 	"namemsg": "skinname-bitlair",
 	"license-name": "GPL-2.0+",
@@ -52,7 +52,7 @@
 	},
 	"ResourceFileModulePaths": {
 		"localBasePath": "",
-		"remoteSkinPath": "BitLair"
+		"remoteSkinPath": "Bitlair"
 	},
 	"ResourceModuleSkinStyles": {
 		"bitlair": {
