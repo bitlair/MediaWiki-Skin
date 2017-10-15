@@ -1,0 +1,173 @@
+
+#specialform {
+	display: inline;
+}
+
+#mw-data-after-content {
+	font-family: Verdana, Arial, sans-serif;
+	color: black;
+	font-size: 8pt;
+}
+
+#powersearch {
+	background: #DDEEFF;
+	border-style: solid;
+	border-width: 1px;
+	padding: 2px;
+}
+
+#quickbar {
+	width: 140px;
+	top: 18ex;
+	padding: 2px;
+	visibility: visible;
+	z-index: 99;
+}
+
+pre, .mw-code {
+	line-height: 12pt;
+}
+
+
+#cb-ca-edit {
+	font-weight: bold;
+}
+
+#pagestats {
+	font-family: Verdana, Arial, sans-serif;
+	color: black;
+	font-size: 9pt;
+}
+
+#quickbar {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 8pt;
+	font-weight: bold;
+	line-height: 9.5pt;
+	text-decoration: none;
+	color: black;
+	padding: 0;
+	margin-top: 0;
+}
+
+#quickbar a {
+	color: #446688;
+}
+
+/* Hide, but keep accessible for screen-readers */
+#mw-navigation h2 {
+	position: absolute;
+	top: -9999px;
+}
+
+div.after-portlet {
+	display: inline;
+	padding-left: .5em;
+}
+
+.mw-indicators {
+	float: right;
+}
+
+.mw-indicator {
+	display: -moz-inline-block;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+	color: #BBBBBB;
+}
+
+#article p.subtitle, #article p.subpages, #article p.tagline {
+	color: #666666;
+	font-size: 11pt;
+	font-weight: bold;
+	padding-top: 0;
+	margin-top: 0;
+	padding-bottom: 1ex;
+}
+
+#sitesub {
+	float: left;
+	margin-left: 8px;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 9pt;
+	font-weight: bold;
+	color: black;
+}
+
+.mw-topboxes {
+	border-collapse: collapse;
+	margin: 0 -1em 1em -1em;
+	padding: 0 0 8px 0;
+	/* @embed */
+	background: url(images/footer-grad.png) repeat-x bottom left;
+}
+
+.mw-topbox p {
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+
+.mw-topbox {
+	color: black;
+	font-weight: bold;
+	margin: 0 0 0 0;
+	padding: 0 1em 0 1em;
+	vertical-align: middle;
+	border-collapse: collapse;
+	border-bottom: solid 1px #bbbbbb;
+}
+.mw-usermessage {
+	background-color: #dadaff;
+}
+
+#mw-contentSub {
+	color: #545454;
+	font-size: small;
+	padding-left: 2em;
+}
+
+.mw-notification {
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.125);
+}
+
+
+#footer li {
+	display: inline;
+	list-style-type: none;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+
+#footer ul {
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+
+div#footer #footer-icons {
+  float: right;
+}
+
+div#footer {
+	margin: .6em 0 1em 0;
+	overflow: hidden;
+	padding: .4em 0 .3em 0;
+	text-align: center;
+	font-size: 90%;
+}
+
+#f-poweredbyico, #f-copyrightico {
+	margin: 0 8px;
+	position: relative;
+	top: -2px; /* Bump it up just a tad */
+}
+
+#f-poweredbyico {
+	float: right;
+	height: 1%;
+}
+
+#f-copyrightico {
+	float: left;
+	height: 1%;
+}

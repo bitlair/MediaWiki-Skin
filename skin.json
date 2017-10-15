@@ -1,0 +1,69 @@
+{
+	"name": "BitLair Black",
+	"author": [
+		"Niels v/d Spek (aka: Tjempie)",
+		"..."
+	],
+	"url": "https://www.mediawiki.org/wiki/Skin:BitLair",
+	"descriptionmsg": "BitLair-desc",
+	"namemsg": "skinname-bitlair",
+	"license-name": "GPL-2.0+",
+	"type": "skin",
+	"ValidSkinNames": {
+		"bitlair": "BitLair"
+	},
+	"requires": {
+		"MediaWiki": ">= 1.25.0"
+	},
+	"MessagesDirs": {
+		"BitLair": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"skins.bitlair.styles": {
+			"position": "top",
+			"styles": {
+				"resources/style.css": {
+					"media": "screen"
+				},
+				"resources/screen.css": {
+					"media": "screen"
+				},
+				"resources/style.responsive.css": {
+					"media": "all"
+				},
+				"resources/print.css": {
+					"media": "print"
+				}
+			}
+		},
+		"skins.bitlair.js": {
+			"scripts": [
+			    "resources/script.js",
+				"resources/script.responsive.js"
+			],
+			"position": "top",
+			"dependencies": [
+				"jquery.throttle-debounce",
+				"jquery.tabIndex"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteSkinPath": "BitLair"
+	},
+	"ResourceModuleSkinStyles": {
+		"bitlair": {
+			"mediawiki.sectionAnchor": "resources/sectionAnchor.css",
+			"mediawiki.styles": "resources/screen.css",
+			"+mediawiki.special.preferences.styles": "resources/mediawiki.special.preferences.styles.less"
+		}
+	},
+	"AutoloadClasses": {
+		"SkinBitLair": "SkinBitLair.php",
+		"CologneBitLair": "SkinBitLair.php"
+	},
+	"manifest_version": 1
+}
