@@ -62,8 +62,8 @@
 		}
 	},
 	"AutoloadClasses": {
-		"SkinBitLair": "SkinBitLair.php",
-		"CologneBitLair": "SkinBitLair.php"
+		"SkinBitlair": "skinBitlair.php",
+		"CologneBitlair": "skinBitlair.php"
 	},
 	"manifest_version": 1
 }
